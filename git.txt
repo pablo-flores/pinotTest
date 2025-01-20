@@ -1,0 +1,19 @@
+echo "# python" >> README.md
+git init
+git add .\app.py
+git branch -M patch0.1
+git commit -m "first commit"
+#git remote add origin https://github.com/pablo-flores/pinotTest.git
+git push -u origin patch0.1
+
+
+netstat -n |grep 192.168.218.4
+
+
+echo "# pinotTest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pablo-flores/pinotTest.git
+git push -u origin main
